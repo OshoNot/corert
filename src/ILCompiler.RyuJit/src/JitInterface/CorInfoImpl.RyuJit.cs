@@ -1646,8 +1646,5 @@ namespace Internal.JitInterface
                 return size;
             }
         }
-
-        private bool canGetCookieForPInvokeCalliSig(CORINFO_SIG_INFO* szMetaSig)
-        { throw new NotImplementedException("canGetCookieForPInvokeCalliSig"); }
     }
 }
