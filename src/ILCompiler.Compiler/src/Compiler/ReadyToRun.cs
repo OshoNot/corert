@@ -148,8 +148,6 @@ namespace ILCompiler
         // JIT32 x86-specific exception handling
         EndCatch                    = 0x110,
 
-        StackProbe                  = 0x111,
-
         // **********************************************************************************************
         //
         // These are not actually part of the R2R file format. We have them here because it's convenient.
