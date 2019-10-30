@@ -38,14 +38,6 @@ namespace Internal.TypeSystem
             }
         }
 
-        public override bool RequireSecObject
-        {
-            get
-            {
-                return _wrappedMethod.RequireSecObject;
-            }
-        }
-
         public override bool IsNoOptimization
         {
             get
